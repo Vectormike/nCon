@@ -1,9 +1,13 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
+import Home from "./containers/home";
+
 const Router = () => {
   return (
     <div>
-      <Switch></Switch>
+      <Switch>
+        <Route exact path="/" component={Home} />
+      </Switch>
     </div>
   );
 };
