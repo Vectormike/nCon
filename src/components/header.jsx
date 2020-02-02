@@ -2,46 +2,45 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a className="navbar-brand" href="to">
-        Navbar
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand mb-0 h1" href="#">
+        Author <span class="navbar-text">Blog-Title</span>
       </a>
       <button
-        className="navbar-toggler"
+        class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
+        data-target="#navbarCollapseContent"
+        aria-controls="#navbarCollapseContent"
         aria-expanded="false"
-        aria-label="Toggle navigation"
+        aria-label="Toggle Navigation"
       >
-        <span className="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav">
-          <li className="nav-item active">
-            <a className="nav-link" href="to">
-              Home <span className="sr-only">(current)</span>
+
+      <div class="collapse navbar-collapse" id="navbarCollapseContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              Home
             </a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link" href="to">
-              Features
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Blog
             </a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link" href="to">
-              Pricing
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Videos
             </a>
           </li>
-          <li className="nav-item">
-            <a
-              className="nav-link disabled"
-              href="to"
-              tabindex="-1"
-              aria-disabled="true"
-            >
-              Disabled
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Lexikon
             </a>
           </li>
         </ul>

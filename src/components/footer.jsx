@@ -3,7 +3,7 @@ import styles from ".././styles/footer.module.scss";
 
 const Footer = () => {
   return (
-    <footer className="fixed-bottom">
+    <footer className="">
       <div className={styles.footer}>
         <div className="container">
           <div className="row">
