@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Route component={Header} />
-      <Route component={Home} />
+      <Route component={Routes} />
       <Route component={Footer} />
     </div>
   );

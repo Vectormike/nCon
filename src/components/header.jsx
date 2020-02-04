@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <Link class="navbar-brand mb-0 h1">
-        NacossUniuyo <span class="navbar-text"></span>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <Link className="navbar-brand mb-0 h1">
+        NacossUniuyo <span className="navbar-text"></span>
       </Link>
       <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarCollapseContent"
@@ -16,31 +16,31 @@ const Header = () => {
         aria-expanded="false"
         aria-label="Toggle Navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarCollapseContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <Link class="nav-link" href="#">
+      <div className="collapse navbar-collapse" id="navbarCollapseContent">
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item active">
+            <Link className="nav-link" href="#">
               Home
             </Link>
           </li>
 
-          <li class="nav-item">
-            <Link class="nav-link" href="#">
+          <li className="nav-item">
+            <Link className="nav-link" href="#">
               Courses
             </Link>
           </li>
 
-          <li class="nav-item">
-            <Link class="nav-link" href="#">
+          <li className="nav-item">
+            <Link to="/news" className="nav-link">
               News
             </Link>
           </li>
 
-          <li class="nav-item">
-            <Link class="nav-link" href="#">
+          <li className="nav-item">
+            <Link className="nav-link" href="#">
               Pay Dues
             </Link>
           </li>
