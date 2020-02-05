@@ -11,7 +11,7 @@ const getSinglePosts = slug =>
   client
     .getEntries({
       "fields.slug": slug,
-      content_type: "Nacoss Uniuyo"
+      content_type: "News"
     })
     .then(response => response.items);
 
