@@ -10,9 +10,9 @@ const usePosts = () => {
     const promise = await getBlogPosts();
     setPosts(promise);
     setLoading(false);
-  }, []);
+  }, [posts]);
 
   return [posts, isLoading];
 };
 
-export default usePosts;
+export default { usePosts };
