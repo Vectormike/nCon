@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand mb-0 h1">
+      <Link to="/" className="navbar-brand mb-0 h1">
         NacossUniuyo <span className="navbar-text"></span>
       </Link>
       <button
@@ -40,7 +40,7 @@ const Header = () => {
           </li>
 
           <li className="nav-item">
-            <Link className="nav-link" href="#">
+            <Link to="/payment" className="nav-link" href="#">
               Pay Dues
             </Link>
           </li>
