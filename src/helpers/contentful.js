@@ -7,7 +7,7 @@ const client = createClient({
 
 const getBlogPosts = () => client.getEntries().then(response => response.items);
 
-const getSinglePosts = slug =>
+const getSingleNews = slug =>
   client
     .getEntries({
       "fields.slug": slug,
@@ -15,4 +15,4 @@ const getSinglePosts = slug =>
     })
     .then(response => response.items);
 
-export { getBlogPosts, getSinglePosts };
+export { getBlogPosts, getSingleNews };
