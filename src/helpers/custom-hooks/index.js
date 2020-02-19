@@ -1,3 +1,3 @@
-import { useNews } from "./usePosts";
-
-export { useNews };
+import { useNews } from "./useNews";
+import { useSingleNews } from "./useSingleNews";
+export { useNews, useSingleNews };
