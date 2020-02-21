@@ -2,6 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Home from "./containers/home";
 import News from "./containers/news";
+import Lecturers from "./containers/news";
 import SingleNews from "./containers/singleNews";
 import Payment from "./containers/payment";
 
@@ -11,6 +12,7 @@ const Router = () => {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/news" component={News} />
+        <Route path="/lecturers" component={Lecturers} />
         <Route path="/news/:id" component={SingleNews} />
         <Route path="/payment" component={Payment} />
       </Switch>

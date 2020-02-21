@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import LECTURER_DATA from "../helpers/lecturer.data";
 import styles from "../styles/lecturers.module.scss";
 
@@ -35,6 +36,11 @@ const Lecturers = () => {
           </ul>
         );
       })}
+      <div>
+        <button className={styles.btn}>
+          <Link to="/lecturers">See more...</Link>
+        </button>
+      </div>
     </div>
   );
 };

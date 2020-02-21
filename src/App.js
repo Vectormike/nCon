@@ -6,8 +6,7 @@ import Footer from "./components/footer";
 
 import Routes from "./routes";
 
-import "./App.css";
-import Home from "./containers/home";
+import "./styles//App.css";
 
 function App() {
   return (
