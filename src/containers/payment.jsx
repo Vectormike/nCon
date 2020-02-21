@@ -4,7 +4,7 @@ import {
   RavePaymentButton,
   RaveProvider
 } from "react-ravepayment";
-const API_publicKey = "FLWPUBK-57c817a478afbf77d29822f912046b0d-X";
+const API_publicKey = "FLFLWPUBK_TEST-b970131ad4cf343d38857bf33d5733c4-X";
 const Payment = () => {
   const [details, setDetails] = useState({
     amount: 10,
@@ -20,6 +20,13 @@ const Payment = () => {
   const onChange = e => {
     setDetails({ ...details, [e.target.name]: e.target.value });
   };
+
+  // Test MasterCard PIN authentication
+  // 5531 8866 5214 2950
+  // cvv 564
+  // Expiry: 09/22
+  // Pin 3310
+  // otp 12345
 
   return (
     <div>
